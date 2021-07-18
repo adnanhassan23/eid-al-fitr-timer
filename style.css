@@ -5,7 +5,8 @@
 }
 
 body {
-  background: url("/crescent-1693759_1280.png") center;
+  background: url("https://raw.githubusercontent.com/adnanhassan23/eid-al-fitr-timer/master/crescent-1693759_1280.png")
+    center;
   background-size: cover;
   margin: 0;
   font-family: "Poppins", sans-serif;
