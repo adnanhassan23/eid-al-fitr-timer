@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/crescent-1693759_1280.png") center;
+  background-size: cover;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  justify-content: center;
+  margin: 0 32em 10em 0;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 940px) {
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 25rem;
+  }
+
+  h1 {
+    font-weight: normal;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 8rem;
+  }
+}
